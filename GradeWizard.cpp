@@ -4,6 +4,7 @@
 #include <iomanip>
 #include <unordered_map>
 #include <limits>
+#include <cstdlib>
 
 using namespace std;
 
@@ -296,5 +297,7 @@ int main()
     Calculator->calculate();
     Calculator->display();
 
+    cout << "Results displayed. Press any key to exit..." << endl;
+    system("pause");
     return 0;
 }
